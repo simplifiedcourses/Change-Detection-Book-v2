@@ -81,7 +81,7 @@ export class AppComponent {
     this.zone.runOutsideAngular(() => {
       setTimeout(() => {
         this.elementRef.nativeElement.classList.remove('detecting');
-      }, 1000);
+      }, 100000);
     });
   }
 }

@@ -21,7 +21,7 @@ export class ThirdLevelComponent {
       this.elementRef.nativeElement.classList.add('detecting');
       setTimeout(() => {
         this.elementRef.nativeElement.classList.remove('detecting');
-      }, 1000);
+      }, 100000);
     });
   }
 }

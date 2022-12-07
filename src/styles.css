@@ -3,6 +3,9 @@
   font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 200;
 }
+body {
+  background: #fff;
+}
 .detecting {
   border: 1px dashed #267373 !important;
   color: #fff!important;
