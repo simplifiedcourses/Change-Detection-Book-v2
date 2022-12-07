@@ -1,0 +1,40 @@
+/* Add application styles & imports to this file! */
+* {
+  font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 200;
+}
+.detecting {
+  border-color: #02cccc !important;
+  color: #fff;
+  background: #267373 !important;
+}
+
+button {
+  background: #c03;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  font-weight: 200;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 8px;
+  background: #ccc;
+}
+.row button {
+  margin-left: 8px;
+}
+.data-structure {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

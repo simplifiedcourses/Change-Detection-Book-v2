@@ -1,0 +1,14 @@
+:host {
+  display: flex;
+  border: 3px solid #ccc;
+  margin: 8px;
+  align-items: center;
+  flex-direction: column;
+  background: #999;
+}
+strong {
+  padding: 16px;
+}
+.children {
+  display: flex;
+}
