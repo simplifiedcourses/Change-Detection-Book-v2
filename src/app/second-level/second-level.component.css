@@ -1,10 +1,12 @@
 :host {
   display: flex;
-  border: 3px solid #ccc;
   margin: 8px;
   align-items: center;
   flex-direction: column;
-  background: #999;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: #267373;
 }
 strong {
   padding: 16px;

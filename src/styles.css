@@ -4,9 +4,9 @@
   font-weight: 200;
 }
 .detecting {
-  border-color: #02cccc !important;
-  color: #fff;
-  background: #267373 !important;
+  border: 1px dashed #267373 !important;
+  color: #fff!important;
+  background: #0CC !important;
 }
 
 button {
@@ -37,4 +37,24 @@ ul {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+.summary {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 50px;
+  justify-content: center;
+  align-content:center;
+  align-items: center;
+  
+}
+.book img {
+  width: 250px;
+}
+h1 {
+  text-align: center;
+}
+a {
+  color: #267373;
+  text-decoration: none;
 }
