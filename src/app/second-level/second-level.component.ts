@@ -31,7 +31,7 @@ export class SecondLevelComponent {
       this.elementRef.nativeElement.classList.add('detecting');
       setTimeout(() => {
         this.elementRef.nativeElement.classList.remove('detecting');
-      }, 100000);
+      }, 1000);
     });
   }
 }
